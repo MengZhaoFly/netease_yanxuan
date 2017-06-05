@@ -1,6 +1,13 @@
 # 项目预览
-http://gettotally.com/yanxuan/#/<br>
-二维码:![](http://or1y0ta3t.bkt.clouddn.com/1496628709.png)
+![](http://or1y0ta3t.bkt.clouddn.com/IMG_5758.PNG)
+![](http://or1y0ta3t.bkt.clouddn.com/IMG_5759.PNG)
+![](http://or1y0ta3t.bkt.clouddn.com/IMG_5760.PNG)
+![](http://or1y0ta3t.bkt.clouddn.com/IMG_5761.PNG)
+线上预览:http://gettotally.com/yanxuan/#/<br>
+二维码:
+![](http://or1y0ta3t.bkt.clouddn.com/1496628709.png)
+# 项目描述
+> vue全家桶实现网易严选购物流程
 # netease-yanxuan
 
 > netease yanxuan with vue2.0
