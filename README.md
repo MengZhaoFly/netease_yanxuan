@@ -7,7 +7,7 @@
 或者二维码扫描:
 ![](http://or1y0ta3t.bkt.clouddn.com/1496628709.png)
 # 项目描述
-> vue全家桶模仿网易严选购物流程，好的生活，没那么贵。
+> vue全家桶模仿网易严选浏览，购物流程，好的生活，没那么贵。
 ### 技术栈
 
 #### 前台
@@ -17,6 +17,7 @@
 > * axios 异步请求
 > * es6 js新一代规范
 > * localStorage 个人信息的存储，购物车的存储
+> * Eslint 代码规范
 > * webpack build to dist
 > * iview 部分引入
 
