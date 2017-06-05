@@ -1,8 +1,5 @@
 # 项目预览
-![](http://or1y0ta3t.bkt.clouddn.com/IMG_5758.PNG)
-![](http://or1y0ta3t.bkt.clouddn.com/IMG_5759.PNG)
-![](http://or1y0ta3t.bkt.clouddn.com/IMG_5760.PNG)
-![](http://or1y0ta3t.bkt.clouddn.com/IMG_5761.PNG)<br>
+![](http://or1y0ta3t.bkt.clouddn.com/netease.png)<br>
 线上访问:http://gettotally.com/yanxuan/#/<br>
 或者二维码扫描:
 ![](http://or1y0ta3t.bkt.clouddn.com/1496628709.png)
