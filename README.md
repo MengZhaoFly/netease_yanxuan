@@ -123,7 +123,10 @@
 > netease yanxuan with vue2.0
 
 ## Build Setup
-
+可修改配置axios.defaults.baseURL<br>
+clone express文件夹<br>
+npm i & npm run dev 启动后端<br>
+前端部分:<br>
 ``` bash
 # install dependencies
 npm install
