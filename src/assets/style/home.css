@@ -1,0 +1,274 @@
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: .53333rem;
+    height: .05333rem;
+    display: inline-block;
+    background: #E8ECF1;
+    opacity: .4;
+    border-radius: 0;
+
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fff;
+}
+.u-icon-servicePolicy-index {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: .42667rem;
+    height: .42667rem;
+}
+.el-row{
+  margin: 0 0 .26667rem 0 ! important;
+  height: .96rem;
+  line-height: .96rem;
+  background-color: #fff;
+}
+/**/
+ .icon {
+    margin-left: .13333rem;
+}
+.u-icon-go2 {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/go2-3e511991d6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: .4rem;
+    height: .4rem;
+}
+.m-indexFloor {
+    margin-bottom: .26667rem;
+    background-color: #fff;
+}
+.hd {
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    height: 1.46667rem;
+    font-size: .42667rem;
+}
+.hd .more {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    color: #333;
+}
+.m-indexManufacturersSupplying {
+    padding-bottom: .34667rem;
+    width: 100%;
+}
+.m-indexManufacturersSupplying .list {
+    position: relative;
+    margin: 0 .4rem;
+    height: 6.21333rem;
+    overflow: hidden;
+}
+.m-indexManufacturersSupplying .list .item:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 4.34667rem;
+    height: 100%;
+}
+.m-indexManufacturersSupplying .list .item:nth-child(2) {
+    top: 0;
+}
+.m-indexManufacturersSupplying .list .item:nth-child(2), .m-indexManufacturersSupplying .list .item:nth-child(3) {
+    left: 4.4rem;
+    width: 4.8rem;
+    height: 3.08rem;
+}
+.m-indexManufacturersSupplying .list .item {
+    position: absolute;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.m-indexManufacturersSupplying .list .item .cnt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: .34667rem 0 0 .4rem;
+    width: 100%;
+    z-index: 4;
+}
+.m-indexManufacturersSupplying .list .item .cnt .title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    font-size: .37333rem;
+    line-height: 1.2;
+    margin-bottom: .10667rem;
+}
+.m-indexManufacturersSupplying .list .item .cnt .price {
+    font-size: .37333rem;
+    color: #999;
+    line-height: .37333rem;
+}
+.m-indexManufacturersSupplying .list .item:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+.m-indexManufacturersSupplying .list .item:nth-child(2) img, .m-indexManufacturersSupplying .list .item:nth-child(3) img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+.m-indexManufacturersSupplying .list .item:nth-child(3) {
+    top: 50%;
+    margin-top: .02667rem;
+}
+/*新品首发*/
+.new-fast .hd {
+    background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap-8720195ff9.png);
+    background-size: 10rem 2.93333rem;
+    height: 3rem;
+    position: relative;
+    background-color: #fff;
+}
+.new-fast .more  {
+    display: block;
+    text-align: center;
+    font-size: .48rem;
+}
+.more {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    color: #333;
+}
+.more .all {
+    font-size: .32rem;
+    line-height: 1;
+    margin-top: .13333rem;
+}
+.arrow-right {
+    background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow-right2-efef62d3cc.png);
+    background-size: .14667rem .24rem;
+    display: inline-block;
+    height: .24rem;
+    width: .14667rem;
+    margin-left: .13333rem;
+}
+.new-fast .hd:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: .24rem solid #F3EBD9;
+    border-bottom: .24rem solid transparent;
+    border-right: .24rem solid transparent;
+    border-left: .24rem solid transparent;
+    bottom: -.46667rem;
+    left: 4.88rem;
+    z-index: 10;
+}
+/*滑动*/
+#newItems{
+  background-color: #fff;
+    
+}
+.recommend-no-loop{
+margin-bottom: .42667rem;
+}
+.new-fast img {
+    display: block;
+    width: 4rem;
+    height: 3.93333rem;
+}
+.name {
+    margin: .26667rem auto .13333rem;
+    padding: 0 .26667rem;
+    line-height: 1.2;
+    text-align: left;
+    font-size: .37333rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333;
+}
+.newItemDesc {
+    height: .70667rem;
+    display: block;
+    font-size: .32rem;
+    color: #666;
+    line-height: .45333rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 .4rem;
+}
+.price {
+    line-height: 1;
+    font-size: .42667rem;
+    text-align: left;
+    color: #b4282d;
+    padding: 0 .26667rem;
+    text-align: center;
+}
+/*列表*/
+.peoplehot {
+  background-color: #fff;
+  padding: 0 .26667rem .26667rem;
+}
+.peoplehot .hottitle{
+  text-align: center;
+      height: 1.46667rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .42667rem;
+      background-color: #fff;
+}
+
+.status.anniversary {
+    background-color: #e5686d;
+    border-radius: 2px;
+    line-height: .32rem;
+}
+.status {
+    height: .4rem;
+    padding: .06667rem .21333rem;
+    line-height: .26667rem;
+    text-align: center;
+    color: #fff;
+    font-size: .26667rem;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
