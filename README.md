@@ -24,6 +24,12 @@
 > * Node(Express) mock后台数据
 > * leancloud 托管express
 
+### 实现的功能
+* 1
+* 2
+* 3
+* 4
+
 # netease-yanxuan
 
 > netease yanxuan with vue2.0
