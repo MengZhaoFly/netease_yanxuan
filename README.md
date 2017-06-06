@@ -71,7 +71,8 @@
 ## 广告
 2018届毕业生求职中<br>
 技术栈：Vue + js + html + css + nodejs+ mongoDB + 微信小程序<br>
-掌握html5，css3，js（es5，es6）熟练应用bootstrap，weui，semantic-ui，jquery等框架进行开发；熟练掌握sass，stylus等CSS预处理器编写vue+vuex+vue-router，对MVVM开发模式有一定的理解，后续还会学习react，PWA，weex等技术；了解node.js，mongodb相关知识，熟练应用express框架开发；了解基本的数据结构与算法；
+掌握html5，css3，js（es5，es6）熟练应用bootstrap，weui，semantic-ui，jquery等框架进行开发；熟练掌握sass，stylus等CSS预处理器编写vue+vuex+vue-router，对MVVM开发模式有一定的理解，后续还会学习react，PWA，weex等技术；了解node.js，mongodb相关知识，熟练应用express框架开发；了解基本的数据结构与算法；<br>
+[这里是我的简历](http://gettotally.com/yanxuan/resume.html)
 电话：17607080585         邮箱：1424254461@qq.com
 
 ## 目录
