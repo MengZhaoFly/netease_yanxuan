@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="banner"  :style="{backgroundImage:'url('+recommend['ad']+')'}" >
+    <div class="banner">
+      <img  v-lazy="recommend.ad" alt="">
         <div class="cnt">热卖好物，诚意推荐。</div>
     </div>
     <div class="cateList">
@@ -14,7 +15,7 @@
         <li class="cateItem" v-for="item in recommend.contents">
               <router-link to="/">
               <div class="cateImgWrapper">
-                <img :src="item.url" alt="" class="cateImg" >
+                <img v-lazy="item.url"  alt="" class="cateImg" >
               </div>
               <div class="name" data-reactid=".0.2.1.1.$subCate_0.0.1">{{item.name}}</div>
            </router-link>
@@ -26,10 +27,14 @@
 </template>
 <script>
 export default {
-  props: ['recommend']
+  props: ['recommend'],
+  mounted () {
+    console.log(this.recommend)
+  }
 }
 </script>
 <style scoped>
+
 .banner {
     position: relative;
     width: 100%;
@@ -40,9 +45,11 @@ export default {
     border-radius: 4px;
 }
 .banner .cnt {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    margin-right: -25%;
     font-size: .37333rem;
     color: #fff;
 }
