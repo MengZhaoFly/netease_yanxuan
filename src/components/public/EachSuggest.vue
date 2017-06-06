@@ -9,7 +9,8 @@
         <div class="author" >{{item.user}}
         </div>
     </div>
-    <div class="imgContainer" :style="{backgroundImage:'url('+item.contentPic+')'}">
+    <div class="imgContainer">
+      <img :src="item.contentPic" alt="">
       <div class="u-icon u-icon-topicReadCount" >
         <span class="eyeAndcount" >
             <span class="topicEyeContainer" >
@@ -23,7 +24,7 @@
      <div class="line1" >
        <div class="title" >{{item.title}}</div>
        <div class="price">
-         <span class="num" >{{item.price}}</span><span class="unit" >元起</span>
+         <span class="num" >{{item.price}}</span><span class="unit" v-if="item.price">元起</span>
          </div>
          </div>
          <div class="line2" >

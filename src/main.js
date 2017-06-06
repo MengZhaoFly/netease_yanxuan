@@ -18,6 +18,7 @@ Vue.use(Vuex)
 Vue.use(VueAwesomeSwiper)
 Vue.use(MintUI)
 Vue.use(iView)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
