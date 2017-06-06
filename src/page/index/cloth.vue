@@ -1,9 +1,10 @@
 <template>
   <div>
-     <each-tab></each-tab>
+     <each-tab :desc="homeDesc" ></each-tab>
   </div>
 </template>
 <script>
+import { Indicator } from 'mint-ui'
 import eachTab from '@/components/public/EachTab'
 export default {
   data () {
@@ -12,6 +13,17 @@ export default {
   },
   components: {
     eachTab
+  },
+  created () {
+    this.$store.dispatch('changeHeadertabActive', 4)
+    Indicator.open('加载中...')
+    this.$store.dispatch('gethomeDesc', 'home')
+  },
+  computed: {
+    homeDesc () {
+      Indicator.close()
+      return this.$store.getters.homeDesc
+    }
   }
 }
 </script>
