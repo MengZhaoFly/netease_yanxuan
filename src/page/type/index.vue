@@ -75,6 +75,7 @@ transition: all .5s;
 }
 .container{
     margin-bottom: 1.30667rem;
+    overflow: hidden;
 }
 .search-container{
   display: flex;
