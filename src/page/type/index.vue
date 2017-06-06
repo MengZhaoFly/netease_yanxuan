@@ -60,11 +60,10 @@ transition: all .5s;
   transform: translate3d(0, -100%, 0);
 }
 .translatefade-leave{
-  transform: translate3d(0, 0, 0);
-
-  
+  transform: translate3d(0, 0, 0); 
 }
 .translatefade-leave-active{
+  
   transform: translate3d(130%, 0, 0);
   transition: transform 1s;
   
