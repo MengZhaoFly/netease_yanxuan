@@ -101,6 +101,10 @@ export default {
       this.curChoose = index
     },
     addToCart () {
+      if (!this.$store.getters.localUserInfo.loginStatus) {
+        this.$router.push({path: '/self'})
+        return
+      }
       let obj = {
         type: this.type,
         gid: this.id,
@@ -116,6 +120,10 @@ export default {
       Toast('加入购物车成功')
     },
     buyitnow () {
+      if (!this.$store.getters.localUserInfo.loginStatus) {
+        this.$router.push({path: '/self'})
+        return
+      }
       let type = this.$route.path.split('/')[2]
       let id = this.$route.path.split('/')[4]
       let tempArr = []
