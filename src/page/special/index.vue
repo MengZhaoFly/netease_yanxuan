@@ -27,14 +27,22 @@ export default {
     }
   },
   created () {
+    this.$Loading.config({
+      color: '#b4282d',
+      failedColor: '#f0ad4e',
+      height: 3
+    })
     this.$Loading.start()
     this.$store.dispatch('changeActive', 1)
     data.getTypeDesc('specials').then(res => {
       this.suggests = res
+      console.log('res', res)
     })
   },
   mounted () {
     this.$Loading.finish()
+  },
+  computed: {
   },
   components: {
     'v-footer': Footer,
