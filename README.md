@@ -1,8 +1,8 @@
 # 项目预览
 ![](http://or1y0ta3t.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170605150025.jpg)<br>
-线上访问:http://gettotally.com/yanxuan/#/<br>
+线上访问:http://zhaoboy.bid/yanxuan/#/<br>
 或者二维码扫描:
-![](http://or1y0ta3t.bkt.clouddn.com/1496628709.png)
+![](http://or1y0ta3t.bkt.clouddn.com/newercode.png)
 # 项目描述
 > vue全家桶模仿网易严选浏览，购物流程，好的生活，没那么贵。
 ### 技术栈
